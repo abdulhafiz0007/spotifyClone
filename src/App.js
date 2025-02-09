@@ -3,6 +3,7 @@ import { Display } from "./components/Display/Display";
 import { Player } from "./components/Player/Player";
 import { SideBar } from "./components/SideBar/SideBar";
 import { PlayerContext } from "./context/PlayerContext";
+import {Routes, Route} from 'react-router-dom';
 
 
 function App() {
