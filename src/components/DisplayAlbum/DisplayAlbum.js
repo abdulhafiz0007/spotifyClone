@@ -2,8 +2,9 @@ import React, { useContext } from "react";
 import { useParams } from "react-router-dom";
 import { albumsData, songsData } from "../../assets/assets";
 import { Navbar } from "../Navbar/Navbar";
-import { assets } from "../../assets/assets";
 import { PlayerContext } from "../../context/PlayerContext";
+import spotify_logo from "../../assets/spotify_logo.png";
+import clock_icon from "../../assets/clock_icon.png";
 
 export const DisplayAlbum = () => {
   const { id } = useParams();
@@ -20,7 +21,7 @@ export const DisplayAlbum = () => {
             <h2 className="text-5xl font-bold mb-4 md:text-7xl">{albumData.name}</h2>
             <h4 className="">{albumData.desc}</h4>
             <p className="mt-1">
-                <img className="inline-block w-5" src={assets.spotify_logo} alt="" />
+                <img className="inline-block w-5" src={spotify_logo} alt="" />
                 <b>Spotify  </b>
                 1,232,389 likes
                 <b>   50 songs,  </b>
@@ -32,7 +33,7 @@ export const DisplayAlbum = () => {
           <p><b className="mr-4">#</b>Title</p>
           <p>Album</p>
           <p className="hidden sm:block">Date Added</p>
-          <img className="m-auto w-4" src={assets.clock_icon} alt="" />
+          <img className="m-auto w-4" src={clock_icon} alt="" />
       </div>
       <hr />
       {
