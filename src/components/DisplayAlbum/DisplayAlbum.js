@@ -32,7 +32,7 @@ export const DisplayAlbum = () => {
           <p><b className="mr-4">#</b>Title</p>
           <p>Album</p>
           <p className="hidden sm:block">Date Added</p>
-          <img className="m-auto w-4" src={assets.clock_icon} />
+          <img className="m-auto w-4" src={assets.clock_icon} alt="" />
       </div>
       <hr />
       {
