@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import arrow_left from '../../assets/left_arrow.png';
-import arrow_right from '../../assets/left_arrow.png';
+import arrow_right from '../../assets/right_arrow.png';
 
 export const Navbar = () => {
 
